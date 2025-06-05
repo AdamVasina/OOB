@@ -9,7 +9,7 @@ public class Pes {
 
 
     Pes(int pocetNoh, String rasa; float getHmotnost; int getPocetUlovehychMaciek){
-        this.pocetNoh;
+        this.pocetNoh = pocetNoh;
         this.rasa;
         this.hmotnost;
         this.pocetUlovehychMaciek;
