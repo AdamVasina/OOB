@@ -8,17 +8,12 @@ public class Pes {
     private int pocetUlovehychMaciek;
 
 
-    Pes(int pocetNoh, String rasa; float getHmotnost; int getPocetUlovehychMaciek){
+    Pes(int pocetNoh, String rasa, float hmotnost, int getPocetUlovehychMaciek) {
         this.pocetNoh = pocetNoh;
-        this.rasa;
-        this.hmotnost;
-        this.pocetUlovehychMaciek;
+        this.rasa = rasa;
+        this.hmotnost = hmotnost;
+        this.pocetUlovehychMaciek = pocetUlovehychMaciek;
 
     }
-
-
-
-
-
 
 }

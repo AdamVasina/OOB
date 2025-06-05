@@ -27,5 +27,15 @@ public class Main {
 
 
 
+
+        //MIESTO PRE BANKU
+        Banka mBank = new Banka(5,1000f,3.25f, 5f);
+        System.out.println(mBank.vypocetSporiacehoUctu());
+
+
+
+
+
+
     }
 }
