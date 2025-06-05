@@ -4,14 +4,21 @@ public class RodinnyDom {
     float rozloha;
     int pocetOkien;
 
-    public void vypocetCenyDomu(int cenaZaMeter,String menoRodiny){
-        float cena = rozloha * cenaZaMeter * pocetPoschodi;
-        System.out.println(menoRodiny + " " + (rozloha * 300 * pocetPoschodi));
+    RodinnyDom(){
+        System.out.println("Teraz sa vola konstruktor");
 
     }
 
+    public float vypocetCenyDomu(int cenaZaMeter,String menoRodiny) {
+        float cena = rozloha * cenaZaMeter * pocetPoschodi;
+        System.out.println(menoRodiny + " " + (rozloha * 300 * pocetPoschodi));
+        return cena;
 
 
 
+
+
+
+    }
 
 }
