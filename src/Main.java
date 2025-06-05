@@ -12,12 +12,10 @@ public class Main {
         float cenaPrvehoDomu= domNovakov.vypocetCenyDomu(300, "Novakovi");
 
 
-
         RodinnyDom domZajacov = new RodinnyDom(3, "beton", 646);
         float cenaDruhehoDomu= domNovakov.vypocetCenyDomu(250, "Zajacovi");
 
         System.out.println(cenaPrvehoDomu + cenaDruhehoDomu);
-
 
 
     }
