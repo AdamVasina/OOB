@@ -17,6 +17,15 @@ public class Main {
 
         System.out.println(cenaPrvehoDomu + cenaDruhehoDomu);
 
+        Obchod kaufland = new Obchod(2600f,2,25);
+        kaufland. vypocetCennyObchodu();
+
+
+        //MIESTO PRE ZVERIMEX
+        Pes alik = new Pes(4, "labrador", 15, 2);
+
+
+
 
     }
 }

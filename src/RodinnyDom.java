@@ -1,12 +1,12 @@
-public class RodinnyDom {
-    private int pocetPoschodi;
+public class RodinnyDom extends Stavba {
+
     private String material;
-    private float rozloha;
+
     private int pocetOkien;
 
 
     RodinnyDom(int pocetPoschodi, String material, float rozloha){
-        System.out.println("Teraz sa vola konstruktor");
+        //System.out.println("Teraz sa vola konstruktor");
         this.pocetPoschodi = pocetPoschodi;
         this.material = material;
         this.rozloha = rozloha;
